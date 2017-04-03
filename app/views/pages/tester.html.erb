@@ -1,42 +1,41 @@
+<header class="cd-header">
+	<a href="#0" class="cd-logo"></a>
+	<a href="#0" class="cd-3d-nav-trigger">
+		Menu
+		<span></span>
+	</a>
+</header> <!-- .cd-header -->
 
-	<header class="cd-header">
-		<a href="#0" class="cd-logo"><%= render :partial => 'cd-logo' %></a>
-		<a href="#0" class="cd-3d-nav-trigger">
-			Menu
-			<span></span>
-		</a>
-	</header> <!-- .cd-header -->
+<main>
+	<h1>3D Rotating Navigation</h1>
+	<!-- all your content here -->
+</main>
 
-	<main>
-		<h1>3D Rotating Navigation</h1>
-		<!-- all your content here -->
-	</main>
+<nav class="cd-3d-nav-container">
+	<ul class="cd-3d-nav">
+		<li class="cd-selected">
+			<a href="#0" style="<%= render :partial => 'icon-1' %>">Dashboard</a>
+		</li>
 
-	<nav class="cd-3d-nav-container">
-		<ul class="cd-3d-nav">
-			<li class="cd-selected">
-				<a href="#0" style="<%= render :partial => 'icon-1' %>">Dashboard</a>
-			</li>
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-2'%>">Projects</a>
+		</li>
 
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-2'%>">Projects</a>
-			</li>
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-3'%>">Images</a>
+		</li>
 
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-3'%>">Images</a>
-			</li>
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-4'%>">Settings</a>
+		</li>
 
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-4'%>">Settings</a>
-			</li>
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-5'%>">New</a>
+		</li>
+	</ul> <!-- .cd-3d-nav -->
 
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-5'%>">New</a>
-			</li>
-		</ul> <!-- .cd-3d-nav -->
-
-		<span class="cd-marker color-1"></span>
-	</nav> <!-- .cd-3d-nav-container -->
+	<span class="cd-marker color-1"></span>
+</nav> <!-- .cd-3d-nav-container -->
 
 <!-- <script src="js/jquery-2.1.1.js"></script> -->
 <%= javascript_include_tag "jquery-2.1.1" %>
