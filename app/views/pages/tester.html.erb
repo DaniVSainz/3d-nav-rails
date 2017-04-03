@@ -1,5 +1,5 @@
 <header class="cd-header">
-	<a href="#0" class="cd-logo"></a>
+	<a href="#0" class="cd-logo"><%= render :partial => 'cd-logo' %></a>
 	<a href="#0" class="cd-3d-nav-trigger">
 		Menu
 		<span></span>
@@ -14,11 +14,11 @@
 <nav class="cd-3d-nav-container">
 	<ul class="cd-3d-nav">
 		<li class="cd-selected">
-			<a href="#0" style="<%= render :partial => 'icon-1' %>">Dashboard</a>
+			<a href="#0" style="<%= render :partial => "icon-1" %>">Dashboard</a>
 		</li>
 
 		<li>
-			<a href="#0" style="<%= render :partial => 'icon-2'%>">Projects</a>
+			<a href="#0" style="<%= render :partial => 'icon-2'%>" >Projects</a>
 		</li>
 
 		<li>

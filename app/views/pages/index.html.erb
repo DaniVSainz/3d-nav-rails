@@ -1,59 +1,44 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<header class="cd-header">
+	<a href="#0" class="cd-logo"></a>
+	<a href="#0" class="cd-3d-nav-trigger">
+		Menu
+		<span></span>
+	</a>
+</header> <!-- .cd-header -->
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+<main>
+	<h1>3D Rotating Navigation</h1>
+	<!-- all your content here -->
+</main>
 
-	<% stylesheet_link_tag "reset.css" %> <!-- CSS reset -->
-	<% stylesheet_link_tag "style.css" %> <!-- Resource style -->
-	<% javascript_include_tag "modernizr.js" %> <!-- Modernizr -->
+<nav class="cd-3d-nav-container">
+	<ul class="cd-3d-nav">
+		<li class="cd-selected">
+			<a href="#0" >Dashboard</a>
+			<!-- style="<%# render :partial => "icon-1" %>" -->
+		</li>
 
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-2'%>" >Projects</a>
+		</li>
 
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-3'%>">Images</a>
+		</li>
 
-	<title>3D Rotating Navigation | CodyHouse</title>
-</head>
-<body>
-	<header class="cd-header">
-		<a href="#0" class="cd-logo"><%= render :partial => 'cd-logo' %></a>
-		<a href="#0" class="cd-3d-nav-trigger">
-			Menu
-			<span></span>
-		</a>
-	</header> <!-- .cd-header -->
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-4'%>">Settings</a>
+		</li>
 
-	<main>
-		<h1>3D Rotating Navigation</h1>
-		<!-- all your content here -->
-	</main>
+		<li>
+			<a href="#0" style="<%= render :partial => 'icon-5'%>">New</a>
+		</li>
+	</ul> <!-- .cd-3d-nav -->
 
-	<nav class="cd-3d-nav-container">
-		<ul class="cd-3d-nav">
-			<li class="cd-selected">
-				<a href="#0" style="<%= render :partial => 'icon-1' %>">Dashboard</a>
-			</li>
+	<span class="cd-marker color-1"></span>
+</nav> <!-- .cd-3d-nav-container -->
 
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-2'%>">Projects</a>
-			</li>
-
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-3'%>">Images</a>
-			</li>
-
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-4'%>">Settings</a>
-			</li>
-
-			<li>
-				<a href="#0" style="<%= render :partial => 'icon-5'%>">New</a>
-			</li>
-		</ul> <!-- .cd-3d-nav -->
-
-		<span class="cd-marker color-1"></span>
-	</nav> <!-- .cd-3d-nav-container -->
-<% javascript_include_tag "jquery-2.1.1.js" %>
-<% javascript_include_tag "main.js" %>
-</body>
-</html>
+<!-- <script src="js/jquery-2.1.1.js"></script> -->
+<%= javascript_include_tag "jquery-2.1.1" %>
+<!-- <script src="js/main.js"></script>  -->
+<%= javascript_include_tag "main.js" %>
