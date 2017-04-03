@@ -16,7 +16,7 @@ jQuery(document).ready(function($){
 	});
 
 	function toggle3dBlock(addOrRemove) {
-		if(typeof(addOrRemove)==='undefined') addOrRemove = true;	
+		if(typeof(addOrRemove)==='undefined') addOrRemove = true;
 		$('.cd-header').toggleClass('nav-is-visible', addOrRemove);
 		$('.cd-3d-nav-container').toggleClass('nav-is-visible', addOrRemove);
 		$('main').toggleClass('nav-is-visible', addOrRemove).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
@@ -28,7 +28,7 @@ jQuery(document).ready(function($){
 	//this function update the .cd-marker position
 	function updateSelectedNav(type) {
 		var selectedItem = $('.cd-selected'),
-			selectedItemPosition = selectedItem.index() + 1, 
+			selectedItemPosition = selectedItem.index() + 1,
 			leftPosition = selectedItem.offset().left,
 			backgroundColor = selectedItem.data('color'),
 			marker = $('.cd-marker');
