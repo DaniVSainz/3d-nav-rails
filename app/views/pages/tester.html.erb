@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
-	<!-- <link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css"> -->
-	<!-- <script src="../modernizr.js"></script> -->
-
-	<title>3D Rotating Navigation | CodyHouse</title>
-</head>
-<body>
 	<header class="cd-header">
 		<a href="#0" class="cd-logo"><%= render :partial => 'cd-logo' %></a>
 		<a href="#0" class="cd-3d-nav-trigger">
@@ -51,7 +37,8 @@
 
 		<span class="cd-marker color-1"></span>
 	</nav> <!-- .cd-3d-nav-container -->
+
 <!-- <script src="js/jquery-2.1.1.js"></script> -->
+<%= javascript_include_tag "jquery-2.1.1" %>
 <!-- <script src="js/main.js"></script>  -->
-</body>
-</html>
+<%= javascript_include_tag "main.js" %>

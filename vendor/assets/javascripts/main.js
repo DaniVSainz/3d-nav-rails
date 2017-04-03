@@ -1,6 +1,7 @@
 jQuery(document).ready(function($){
 	//toggle 3d navigation
 	$('.cd-3d-nav-trigger').on('click', function(){
+		console.log('Clicked Hamburger')
 		toggle3dBlock(!$('.cd-header').hasClass('nav-is-visible'));
 	});
 
@@ -12,6 +13,8 @@ jQuery(document).ready(function($){
 	});
 
 	$(window).on('resize', function(){
+		console.log('Clicked Hamburger')
+
 		window.requestAnimationFrame(updateSelectedNav);
 	});
 
