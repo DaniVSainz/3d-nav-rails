@@ -11,10 +11,16 @@ html {
   font-size: 62.5%;
 }
 
-body {
+#index {
+  /*#1b1f2f*/
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  background-color: #485274;
+  /*background-image: url(https://images.pexels.com/photos/266691/pexels-photo-266691.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);*/
+  background: url(2.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
