@@ -19,3 +19,9 @@ video#bgvid {
   background: url(2.jpeg) no-repeat;
   background-size: cover;
 }
+
+#videos-container {
+  background-color: black;
+  height: 100vh;
+  visibility: hidden;
+}
