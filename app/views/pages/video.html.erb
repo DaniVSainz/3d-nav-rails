@@ -4,10 +4,15 @@
   crossorigin="anonymous"></script>
 
 
-<%= video_tag "3.mp4", controls: false, autoplay: true, loop: false, muted: true ,id:'bgvid' ,poster: '2.jpeg'%>
 
-<div class="container-fluid" id="videos-container">
+
+<div class="video-div">
+  <%= video_tag "3.mp4", controls: false, autoplay: true, loop: false, muted: true, poster: '2.jpeg', id: "bgvid"%>
+  <%= link_to "hi" , pages_path %>
 </div>
+
+<!-- <div class="container-fluid" id="videos-container">
+</div> -->
 
 
 <script type='text/javascript'>
@@ -15,7 +20,7 @@
     function myHandler(e) {
         console.log('ended')
         $("#bgvid").remove();
-        document.getElementById("videos-container").style.visibility = "visible"
+        // document.getElementById("videos-container").style.visibility = "visible"
         // What you want to do after the event
     }
 </script>
