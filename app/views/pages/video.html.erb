@@ -1,1 +1,15 @@
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
 <%= video_tag "3.mp4", controls: false, autoplay: true, loop: false, muted: true ,id:'bgvid' ,poster: '2.jpeg'%>
+
+<script type='text/javascript'>
+    document.getElementById('bgvid').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+        console.log('ended')
+        $("#bgvid").remove();
+        // What you want to do after the event
+    }
+</script>
