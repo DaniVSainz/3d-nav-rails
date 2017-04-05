@@ -16,7 +16,7 @@ html {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   /*background-image: url(https://images.pexels.com/photos/266691/pexels-photo-266691.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);*/
-  background: url(2.jpeg) no-repeat center center fixed;
+  background: url(4.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -186,7 +186,7 @@ Main Components
   /* this is the 3D rotating navigation */
   position: relative;
   height: 100%;
-  background-color: #343c55;
+  background-color: black;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -273,13 +273,13 @@ Main Components
   background-position: 0 0;
 }
 .no-touch .cd-3d-nav a:hover {
-  background-color: #2b3145;
+  background-color: #272c30;
 }
 .cd-3d-nav .cd-selected a {
-  background-color: #212635;
+  background-color: #272c30;
 }
 .no-touch .cd-3d-nav .cd-selected a:hover {
-  background-color: #212635;
+  background-color: #272c30;
 }
 .cd-3d-nav .cd-selected a::before {
   background-position: 0 -32px;
@@ -373,28 +373,28 @@ Main Components
 
 /* these are the colors of the markers - line + arrow */
 .color-1 {
-  color: #9a57bd;
-  background-color: #9a57bd;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .color-2 {
-  color: #c96aa4;
-  background-color: #c96aa4;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .color-3 {
-  color: #d6915e;
-  background-color: #d6915e;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .color-4 {
-  color: #5397c7;
-  background-color: #5397c7;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .color-5 {
-  color: #77cd91;
-  background-color: #77cd91;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 main {
