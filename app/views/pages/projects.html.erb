@@ -15,11 +15,11 @@
 		<div class="row">
 		 <div class="col-sm-10 col-sm-offset-1">
 				 <div class="col-md-4 col-sm-6">
-						 <div class="card-container">
+						 <div class="card-container manual-flip">
 								<div class="card">
 										<div class="front">
 												<div class="cover">
-													<%= video_tag "relicious.mp4", controls: false, autoplay: false, loop: false, muted: true,id:'card-video'%>
+													<%= video_tag "relicious.mp4", controls: false, autoplay: false, loop: false, muted: true,id:'card-video',onclick:"this.play();"%>
 												</div>
 												<div >
 														<!-- <img class="img-circle" src="https://www2.mmu.ac.uk/media/mmuacuk/style-assets/images/r-research/profile-Zeyad.jpg"/> -->
@@ -80,7 +80,7 @@
 				</div> <!-- end col sm 3 -->
 <!--         <div class="col-sm-1"></div> -->
 <div class="col-md-4 col-sm-6">
-		<div class="card-container">
+		<div class="card-container manual-flip">
 			 <div class="card">
 					 <div class="front">
 							 <div class="cover">
@@ -145,11 +145,11 @@
 </div> <!-- end col sm 3 -->
 <!--         <div class="col-sm-1"></div> -->
 <div class="col-md-4 col-sm-6">
-		<div class="card-container">
+		<div class="card-container manual-flip">
 			 <div class="card">
 					 <div class="front">
 							 <div class="cover">
-								 <%= video_tag "wynmemory.mp4", controls: false, autoplay: false, loop: false, muted: true,id:'card-video'%>
+								 <%= video_tag "wynmemory.mp4", controls: false, autoplay: false, loop: false, muted: true,id:'card-video', onclick:"this.play();"%>
 							 </div>
 							 <div >
 									 <!-- <img class="img-circle" src="https://www2.mmu.ac.uk/media/mmuacuk/style-assets/images/r-research/profile-Zeyad.jpg"/> -->
