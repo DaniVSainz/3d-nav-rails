@@ -47,8 +47,27 @@ video#bgvid {
 
 
 
+/*====================================================================================================================================================*/
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*====================================================================================================================================================*/
 
-/*PROJECTS CAROUSEL*/
+#projects-h1{
+  margin: 0;
+  padding: 0;
+  /*border-bottom: 1px solid white;*/
+  padding-bottom: 50px;
+}
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300,400,500,700,800,900');
 #cards {
 	margin-top: 60px;
@@ -154,6 +173,10 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 }
 .card .cover img{
     width: 100%;
+}
+.card-image{
+  width: 100%;
+  height: auto;
 }
 #card-video{
   width: 100%;
