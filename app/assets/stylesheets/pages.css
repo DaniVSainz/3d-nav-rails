@@ -127,7 +127,8 @@ video#bgvid {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #FFF;
+  border: solid 1px black;
+	background-color: rgba(255,255,255,0.5);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
 }
 
@@ -199,6 +200,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 }
 
 .card .content{
+  color: black;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     padding: 10px 20px 20px;
@@ -228,7 +230,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     margin-bottom: 20px;
 }
 .card .footer {
-    border-top: 1px solid #EEEEEE;
+    border-top: 1px solid black;
     color: #999999;
     margin: 30px 0 0;
     padding: 10px 0 0;
@@ -249,9 +251,9 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 }
 .card .motto{
 		font-family: 'Arima Madurai', cursive;
-    border-bottom: 1px solid #EEEEEE;
-    color: #999999;
-    font-size: 14px;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 22px;
     font-weight: 400;
     padding-bottom: 10px;
     text-align: center;
@@ -269,10 +271,10 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 }
 
 .card .stats:first-child{
-	border-right: 1px solid #EEEEEE;
+	border-right: 1px solid black;
 }
 .card .stats:last-child{
-	border-left: 1px solid #EEEEEE;
+	border-left: 1px solid black;
 }
 .card .stats h4{
 		font-family: 'Arima Madurai', cursive;
@@ -280,7 +282,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 	margin-bottom: 5px;
 }
 .card .stats p{
-	color: #777777;
+	color: black;
 }
 /*      Just for presentation        */
 
@@ -344,7 +346,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 
 .btn-simple{
     opacity: .8;
-    color: #666666;
+    color: black;
     background-color: transparent;
 }
 
