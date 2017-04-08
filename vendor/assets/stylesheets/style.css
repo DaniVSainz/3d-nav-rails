@@ -228,7 +228,7 @@ Main Components
 }
 .cd-3d-nav li {
   height: 100%;
-  width: 20%;
+  width: 25%;
   float: left;
 }
 .cd-3d-nav li:first-of-type a::before {
@@ -306,7 +306,9 @@ Main Components
   .cd-3d-nav a {
     padding: 7.6em 1em 0;
     color: #000000;
-    font-size: 1.3rem;
+    font-family: 'Indie Flower', cursive;
+
+    font-size: 1.7rem;
     font-weight: 600;
     text-align: center;
     -webkit-font-smoothing: antialiased;

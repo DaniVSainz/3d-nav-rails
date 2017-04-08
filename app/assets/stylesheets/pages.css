@@ -52,21 +52,22 @@ video#bgvid {
 
 
 /*====================================================================================================================================================*/
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
-/*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
 /*====================================================================================================================================================*/
 
 #projects-h1{
+  font-family: 'Indie Flower', cursive;
   margin: 0;
   padding: 0;
   /*border-bottom: 1px solid white;*/
@@ -180,8 +181,11 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     width: 100%;
 }
 .card-image{
-  width: 100%;
+  width: 150px;
   height: auto;
+  border: 1px solid grey;
+  opacity: 0.95;
+  border-radius: 90%;
 }
 #card-video{
   width: 100%;
@@ -254,13 +258,13 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     height: 90px;
 }
 .card .motto{
-		font-family: 'Arima Madurai', cursive;
-    border-bottom: 1px solid black;
-    color: black;
-    font-size: 22px;
-    font-weight: 400;
-    padding-bottom: 10px;
-    text-align: center;
+  font-family: 'Cinzel', serif;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .card .stats-container{
@@ -411,5 +415,26 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     }
 }
 
+/*====================================================================================================================================================*/
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*DANIEL PAGE*//*PROJECTS CAROUSEL                                               */
+/*====================================================================================================================================================*/
 
-/*A*/
+#dani-page{
+  height: 100vh;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
