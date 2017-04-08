@@ -19,7 +19,10 @@
 						 <div class="card-container manual-flip">
 								<div class="card">
 										<div class="front">
-												<div class="cover">
+												<div class="cover" id="cover-1">
+													<div class="center-icon">
+														<%= image_tag "play-icon.png", alt:"play video icon", class:"play-icon", id:"play-1" %>
+													</div>
 													<%= video_tag "relicious.mp4", controls: false, autoplay: false, loop: false, muted: true,id:'card-video',onclick:"this.play();"%>
 												</div>
 												<div >
@@ -87,7 +90,10 @@
 		<div class="card-container manual-flip">
 			 <div class="card">
 					 <div class="front">
-							 <div class="cover">
+							 <div class="cover" id="cover-2">
+								 <div class="center-icon">
+									 <%= image_tag "play-icon.png", alt:"play video icon", class:"play-icon",id: 'play-2' %>
+								 </div>
 								 <%= video_tag "wynmemory.mp4", controls: false, autoplay: false, loop: false, muted: true,id:'card-video', onclick:"this.play();"%>
 							 </div>
 							 <div >
@@ -181,3 +187,14 @@
 	<!-- <script src="js/main.js"></script>  -->
 	<%= javascript_include_tag "main.js" %>
 </body>
+
+<script type='text/javascript'>
+$('#cover-1').click(function(){
+	console.log('clicked')
+	$('#play-1').remove();
+});
+$('#cover-2').click(function(){
+	console.log('clicked')
+	$('#play-2').remove();
+});
+</script>
