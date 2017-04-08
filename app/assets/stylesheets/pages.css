@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/*/
 
 #text-index{
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
   align-items: center;
   display: flex;
@@ -43,7 +44,8 @@ video#bgvid {
 }
 
 #name{
-  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
   color: white;
 }
 
