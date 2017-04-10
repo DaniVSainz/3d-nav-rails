@@ -35,6 +35,8 @@ Main Components
 
 -------------------------------- */
 
+
+
 .cd-header {
   height: 80px;
   width: 90%;
@@ -447,3 +449,8 @@ main.nav-is-visible {
   }
 }
 /*Custom css*/
+
+.transparency{
+  padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}

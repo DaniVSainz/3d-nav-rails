@@ -1,0 +1,53 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+<body id='dani-page'>
+	<header class="cd-header">
+		<a href="#0" class="cd-logo"></a>
+		<a href="#0" class="cd-3d-nav-trigger">
+			Menu
+			<span></span>
+		</a>
+	</header> <!-- .cd-header -->
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class='text-box'>
+					<%= image_tag "5.jpg" , alt: "Picture of Daniel Villegas", class:"card-image" %>
+					<h1 class="text-center" id='projects-h1'>Daniel Villegas Sainz</h1>
+					<p id='dani-para' class="text-center">Most people call me Dani, and i've had a passion for Technology related areas since i was young.<br><br>I'm a Wyncode Academy graduate, and now i'm pursuing my dream carreer of Programming.<br><br>I've always had a artistic and deisign oriented side and Web dev will be my outlet.I plan on learning as much as possible within the next year and see where things take me</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	<nav class="cd-3d-nav-container">
+		<ul class="cd-3d-nav">
+			<li >
+				<%= link_to "Home" , pages_path %>
+			</li>
+
+			<li>
+				<%= link_to "Projects" , projects_path %>
+			</li>
+
+			<li class="cd-selected">
+				<%= link_to "Who Am I?" , dani_path %>
+			</li>
+
+			<li>
+				<a href="#0">Settings</a>
+			</li>
+
+
+		</ul> <!-- .cd-3d-nav -->
+
+		<span class="cd-marker color-1"></span>
+	</nav> <!-- .cd-3d-nav-container -->
+
+	<!-- <script src="js/jquery-2.1.1.js"></script> -->
+	<%= javascript_include_tag "jquery-2.1.1" %>
+	<!-- <script src="js/main.js"></script>  -->
+	<%= javascript_include_tag "main.js" %>
+</body>
