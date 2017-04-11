@@ -186,15 +186,19 @@
 </body>
 
 <script type='text/javascript'>
-$('#play-1').click(function(){
+$('#cover-1').click(function(){
 	$('#play-1').remove();
 	$('#transparency').addClass('transparency');
 	$('#transparency-header').addClass('transparency');
+	$('.transparency').css({ 'background-color': 'rgba(0, 0, 0, 0.95)', 'margin':'0', 'width': '100%' });
+
 });
 $('#hamburger-icon').click(function(){
 	console.log('Hamburger Clicked')
-	$('#transparency').removeClass("transparency");
-	$('#transparency-header').removeClass("transparency");
+	$('.transparency').css({ 'background-color': 'rgba(0, 0, 0, 0.0)'});
+	$('#transparency-header').css( {'width':'90%' , 'margin': '0 auto'});
+	// $('#transparency').removeClass("transparency");
+	// $('#transparency-header').removeClass("transparency");
 });
 document.getElementById('card-video-1').addEventListener('ended',myHandler,false);
 function myHandler(e) {
