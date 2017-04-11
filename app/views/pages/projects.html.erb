@@ -1,10 +1,10 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
-<body id="index">
-	<header class="cd-header">
+<body class="index" id="transparency-3">
+	<header class="cd-header" id="transparency-header">
 		<a href="#0" class="cd-logo"></a>
-		<a href="#0" class="cd-3d-nav-trigger">
+		<a href="#0" class="cd-3d-nav-trigger" id="hamburger-icon">
 			Menu
 			<span></span>
 		</a>
@@ -186,20 +186,24 @@
 </body>
 
 <script type='text/javascript'>
-$('#cover-1').click(function(){
-	console.log('clicked')
+$('#play-1').click(function(){
 	$('#play-1').remove();
 	$('#transparency').addClass('transparency');
+	$('#transparency-header').addClass('transparency');
+});
+$('#hamburger-icon').click(function(){
+	console.log('Hamburger Clicked')
+	$('#transparency').removeClass("transparency");
+	$('#transparency-header').removeClass("transparency");
 });
 document.getElementById('card-video-1').addEventListener('ended',myHandler,false);
 function myHandler(e) {
 		console.log('ended');
-		$('#trasnparency').removeClass("transparency");
+		$('#trasnparency').removeClass();
 		// document.getElementById("videos-container").style.visibility = "visible"
 		// What you want to do after the event
 };
 $('#cover-2').click(function(){
-	console.log('clicked')
 	$('#play-2').remove();
 });
 
