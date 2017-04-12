@@ -1,4 +1,6 @@
 # README
 
-This is my new portfolio i'm currently working on.No readme yet since nothing is set in stone yet..Feel free to visit it online at:  
+This is my new portfolio i'm currently working on.
 http://danivs.herokuapp.com/
+
+[alt!](https://github.com/DaniVSainz/New-Portfolio/blob/master/home-page.gif)
