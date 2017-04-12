@@ -26,6 +26,7 @@
     document.getElementById('bgvid').addEventListener('ended',myHandler,false);
     function myHandler(e) {
         console.log('ended')
+        // Removes the video once it's done playing and places a background image with a transition!! without this on end the last video frame is over our background"
         $("#bgvid").remove();
         $('.video-div').css({ 'background': 'url(<%= asset_path('10.jpeg') %>) no-repeat',
                               'background-size': 'cover'});
