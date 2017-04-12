@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-video#bgvid {
+/*video#bgvid {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -25,8 +25,21 @@ video#bgvid {
   background: url('10.jpeg') no-repeat;
   background-size: cover;
   z-index: 2;
-}
+}*/
 
+#bgvid{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
 
 .video-div{
   width: 100%;
@@ -36,6 +49,7 @@ video#bgvid {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  transition: background 2s linear;
 }
 
 
@@ -497,7 +511,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 .dani-para{
   color: black;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 17px;
+  font-size: 1px;
 }
 
 .text-box{

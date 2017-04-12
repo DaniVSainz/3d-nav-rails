@@ -7,7 +7,7 @@
 
 
 <div class="video-div">
-  <!-- <%= video_tag "3.mp4", controls: false, autoplay: true, loop: false, muted: true, poster: '10.jpeg', id: "bgvid"%> -->
+  <%= video_tag "3.mp4", controls: false, autoplay: true, loop: false, muted: true,id: "bgvid"%>
     <div id="text-index">
       <div class="text-center">
         <h1 id="name">Daniel Villegas Sainz</h1>
@@ -27,7 +27,7 @@
     function myHandler(e) {
         console.log('ended')
         $("#bgvid").remove();
-        // document.getElementById("videos-container").style.visibility = "visible"
-        // What you want to do after the event
+        $('.video-div').css({ 'background': 'url(<%= asset_path('10.jpeg') %>) no-repeat',
+                              'background-size': 'cover'});
     }
 </script>
