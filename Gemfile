@@ -41,6 +41,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
+  gem 'capybara'
 end
 
 group :production do
