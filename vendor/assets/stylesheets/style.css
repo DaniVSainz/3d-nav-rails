@@ -463,3 +463,14 @@ main.nav-is-visible {
   -moz-transition:background-color 1s;
   transition:background-color 1s;
 }
+
+.transparency-2{
+  min-height: 100%;
+  padding-bottom: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition:background-color 1s;
+  -moz-transition:background-color 1s;
+  transition:background-color 1s;
+}

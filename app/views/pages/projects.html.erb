@@ -181,37 +181,3 @@
 		<%= javascript_include_tag "main.js" %>
 	</div>
 </body>
-
-<script type='text/javascript'>
-// First card on click Remove the play icon, then add a faded black background(fade in setting is in css.)
-$('#cover-1').click(function(){
-	$('#play-1').remove();
-	$('#transparency').addClass('transparency');
-	$('#transparency-header').addClass('transparency');
-	$('.transparency').css({ 'background-color': 'rgba(0, 0, 0, 0.95)', 'margin':'0', 'width': '100%' });
-
-});
-$('#cover-2').click(function(){
-	$('#play-2').remove();
-	$('#transparency').addClass('transparency');
-	$('#transparency-header').addClass('transparency');
-	$('.transparency').css({ 'background-color': 'rgba(0, 0, 0, 0.95)', 'margin':'0', 'width': '100%' });
-});
-// When a user clicks the hamburger icon remove the black faded background and re add it's css properties that were removed.
-$('#hamburger-icon').click(function(){
-	console.log('Hamburger Clicked')
-	$('.transparency').css({ 'background-color': 'rgba(0, 0, 0, 0.0)'});
-	$('#transparency-header').css( {'width':'90%' , 'margin': '0 auto'});
-	// $('#transparency').removeClass("transparency");
-	// $('#transparency-header').removeClass("transparency");
-});
-// When our video ends remove the black background
-document.getElementById('card-video-1').addEventListener('ended',myHandler,false);
-function myHandler(e) {
-		console.log('ended');
-		$('.transparency').css({ 'background-color': 'rgba(0, 0, 0, 0)', 'margin':'0', 'width': '100%' });
-		$('#transparency-header').css( {'width':'90%' , 'margin': '0 auto'});
-};
-
-
-</script>
