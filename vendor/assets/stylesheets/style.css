@@ -449,7 +449,12 @@ main.nav-is-visible {
 }
 /*Custom css*/
 
+.container-div{
+  /*height: 100vh;*/
+}
+
 .transparency{
+  min-height: 100%;
   padding-bottom: 0;
   margin: 0;
   width: 100%;

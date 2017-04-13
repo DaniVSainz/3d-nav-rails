@@ -12,7 +12,7 @@ describe 'navigate' do
       it 'takes your to projects page' do
         visit root_path
         click_link('Projects')
-        expect(page).to have_content "Projects"
+         expect(page).to have_css("#transparency")
       end
     end
 

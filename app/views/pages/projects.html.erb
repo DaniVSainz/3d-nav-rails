@@ -2,182 +2,184 @@
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
 <body class="index" id="transparency-3">
-	<header class="cd-header" id="transparency-header">
-		<a href="#0" class="cd-logo"></a>
-		<a href="#0" class="cd-3d-nav-trigger" id="hamburger-icon">
-			Menu
-			<span></span>
-		</a>
-	</header> <!-- .cd-header -->
-<div id="transparency">
-	<main>
-		<h1 class="text-center" id='projects-h1'>Projects</h1>
-		<div class="row">
-		 <div class="col-sm-10 col-sm-offset-1 card-col">
-				 <div class="col-md-4 col-sm-6 col-centered">
-						 <div class="card-container manual-flip">
-								<div class="card">
-										<div class="front">
-												<div class="cover" id="cover-1">
-													<div class="center-icon">
-														<%= image_tag "play-icon.png", alt:"play video icon", class:"play-icon", id:"play-1" %>
+	<div class='container-div' id="transparency">
+		<header class="cd-header" id="transparency-header">
+			<a href="#0" class="cd-logo"></a>
+			<a href="#0" class="cd-3d-nav-trigger" id="hamburger-icon">
+				Menu
+				<span></span>
+			</a>
+		</header> <!-- .cd-header -->
+	<div > <!-- id="transparency" -->
+		<main>
+			<h1 class="text-center" id='projects-h1'>Projects</h1>
+			<div class="row">
+			 <div class="col-sm-10 col-sm-offset-1 card-col">
+					 <div class="col-md-4 col-sm-6 col-centered">
+							 <div class="card-container manual-flip">
+									<div class="card">
+											<div class="front">
+													<div class="cover" id="cover-1">
+														<div class="center-icon">
+															<%= image_tag "play-icon.png", alt:"play video icon", class:"play-icon", id:"play-1" %>
+														</div>
+														<%= video_tag "relicious.mp4", controls: false, autoplay: false, loop: false, muted: true,class:'card-video', id:"card-video-1",onclick:"this.play();"%>
 													</div>
-													<%= video_tag "relicious.mp4", controls: false, autoplay: false, loop: false, muted: true,class:'card-video', id:"card-video-1",onclick:"this.play();"%>
-												</div>
-												<div >
-												</div>
-												<div class="content">
-														<div >
-														</div>
-														<div class="footer">
-															<button class="btn btn-simple" onclick="rotateCard(this)">
-																	<i class="fa fa-mail-forward"></i> More Details!
-															</button>
-														</div>
-												</div>
-										</div> <!-- end front panel -->
-										<div class="back">
-												<div class="header">
-														<h5 class="motto">"Relicious"</h5>
-												</div>
-												<div class="content">
-														<div class="main">
-																<h4 class="text-center">A Modern minimalistic online dating website where you're matched with other people by your favorite restaurants!<br></h4>
-																<p class="text-center">Made over two weeks on the RoR framework.<br>Features:<br>Private Messaging,Restaurant Searching through a Api,User Authentication,Image hosting on AWS s3 bucket</p>
+													<div >
+													</div>
+													<div class="content">
+															<div >
+															</div>
+															<div class="footer">
+																<button class="btn btn-simple" onclick="rotateCard(this)">
+																		<i class="fa fa-mail-forward"></i> More Details!
+																</button>
+															</div>
+													</div>
+											</div> <!-- end front panel -->
+											<div class="back">
+													<div class="header">
+															<h5 class="motto">"Relicious"</h5>
+													</div>
+													<div class="content">
+															<div class="main">
+																	<h4 class="text-center">A Modern minimalistic online dating website where you're matched with other people by your favorite restaurants!<br></h4>
+																	<p class="text-center">Made over two weeks on the RoR framework.<br>Features:<br>Private Messaging,Restaurant Searching through a Api,User Authentication,Image hosting on AWS s3 bucket</p>
 
-																<div class="stats-container">
-																		<div class="stats">
-																				<h4>2</h4>
-																				<p>
-																						Weeks
-																				</p>
-																		</div>
-																		<div class="stats">
-																				<h4>2</h4>
-																				<p>
-																						People
-																				</p>
-																		</div>
-																		<div class="stats">
-																				<h4>1</h4>
-																				<p>
-																						Website
-																				</p>
-																		</div>
-																</div>
+																	<div class="stats-container">
+																			<div class="stats">
+																					<h4>2</h4>
+																					<p>
+																							Weeks
+																					</p>
+																			</div>
+																			<div class="stats">
+																					<h4>2</h4>
+																					<p>
+																							People
+																					</p>
+																			</div>
+																			<div class="stats">
+																					<h4>1</h4>
+																					<p>
+																							Website
+																					</p>
+																			</div>
+																	</div>
 
-														</div>
-												</div>
-												<div class="footer">
-													<button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
-															<i class="fa fa-reply"></i> Back
-													</button>
-														<div class="social-links text-center">
-																<a href="https://github.com/DaniVSainz/ReliciousDating" class="facebook"><i class="fa fa-github fa-2x"></i></a>
-																<a href="http://relicious.herokuapp.com/" class="google"><i class="fa fa-desktop fa-2x"></i></a>
-														</div>
-												</div>
-										</div> <!-- end back panel -->
-								</div> <!-- end card -->
-						</div> <!-- end card-container -->
-				</div> <!-- end col sm 3 -->
-<!--         <div class="col-sm-1"></div> -->
- <!-- end col sm 3 -->
-<!--         <div class="col-sm-1"></div> -->
-<div class="col-md-4 col-sm-6 col-centered">
-		<div class="card-container manual-flip">
-			 <div class="card">
-					 <div class="front">
-							 <div class="cover" id="cover-2">
-								 <div class="center-icon">
-									 <%= image_tag "play-icon.png", alt:"play video icon", class:"play-icon",id: 'play-2' %>
+															</div>
+													</div>
+													<div class="footer">
+														<button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
+																<i class="fa fa-reply"></i> Back
+														</button>
+															<div class="social-links text-center">
+																	<a href="https://github.com/DaniVSainz/ReliciousDating" class="facebook"><i class="fa fa-github fa-2x"></i></a>
+																	<a href="http://relicious.herokuapp.com/" class="google"><i class="fa fa-desktop fa-2x"></i></a>
+															</div>
+													</div>
+											</div> <!-- end back panel -->
+									</div> <!-- end card -->
+							</div> <!-- end card-container -->
+					</div> <!-- end col sm 3 -->
+	<!--         <div class="col-sm-1"></div> -->
+	 <!-- end col sm 3 -->
+	<!--         <div class="col-sm-1"></div> -->
+	<div class="col-md-4 col-sm-6 col-centered">
+			<div class="card-container manual-flip">
+				 <div class="card">
+						 <div class="front">
+								 <div class="cover" id="cover-2">
+									 <div class="center-icon">
+										 <%= image_tag "play-icon.png", alt:"play video icon", class:"play-icon",id: 'play-2' %>
+									 </div>
+									 <%= video_tag "wynmemory.mp4", controls: false, autoplay: false, loop: false, muted: true,class:'card-video', id:"card-video-2", onclick:"this.play();"%>
 								 </div>
-								 <%= video_tag "wynmemory.mp4", controls: false, autoplay: false, loop: false, muted: true,class:'card-video', id:"card-video-2", onclick:"this.play();"%>
-							 </div>
-							 <div >
-							 </div>
-							 <div class="content">
-									 <div >
-									 </div>
-									 <div class="footer">
-										 <button class="btn btn-simple" onclick="rotateCard(this)">
-												 <i class="fa fa-mail-forward"></i> Manual Rotation
-										 </button>									 </div>
-							 </div>
-					 </div> <!-- end front panel -->
-					 <div class="back">
-							 <div class="header">
-									 <h5 class="motto">"WynMemory"</h5>
-							 </div>
-							 <div class="content">
-									 <div class="main">
-											 <h4 class="text-center">A high tech twist on a classic kids game.<br>Match all the images sourced randomly from our image gallery!</h4>
-											 <p class="text-center">Made on the RoR Framework</p>
+								 <div >
+								 </div>
+								 <div class="content">
+										 <div >
+										 </div>
+										 <div class="footer">
+											 <button class="btn btn-simple" onclick="rotateCard(this)">
+													 <i class="fa fa-mail-forward"></i> Manual Rotation
+											 </button>									 </div>
+								 </div>
+						 </div> <!-- end front panel -->
+						 <div class="back">
+								 <div class="header">
+										 <h5 class="motto">"WynMemory"</h5>
+								 </div>
+								 <div class="content">
+										 <div class="main">
+												 <h4 class="text-center">A high tech twist on a classic kids game.<br>Match all the images sourced randomly from our image gallery!</h4>
+												 <p class="text-center">Made on the RoR Framework</p>
 
-											 <div class="stats-container">
-													 <div class="stats">
-															 <h4>2</h4>
-															 <p>
-																	 Days
-															 </p>
-													 </div>
-													 <div class="stats">
-															 <h4>2</h4>
-															 <p>
-																	 People
-															 </p>
-													 </div>
-													 <div class="stats">
-															 <h4>1</h4>
-															 <p>
-																	 Website
-															 </p>
-													 </div>
-											 </div>
+												 <div class="stats-container">
+														 <div class="stats">
+																 <h4>2</h4>
+																 <p>
+																		 Days
+																 </p>
+														 </div>
+														 <div class="stats">
+																 <h4>2</h4>
+																 <p>
+																		 People
+																 </p>
+														 </div>
+														 <div class="stats">
+																 <h4>1</h4>
+																 <p>
+																		 Website
+																 </p>
+														 </div>
+												 </div>
 
-									 </div>
-							 </div>
-							 <div class="footer">
-								 <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
-										 <i class="fa fa-reply"></i> Back
-								 </button>
-									 <div class="social-links text-center">
-											 <a href="https://github.com/DaniVSainz/friends-family" class="facebook"><i class="fa fa-github fa-2x"></i></a>
-											 <a href="https://wynmemory.herokuapp.com/" class="google"><i class="fa fa-desktop fa-2x"></i></a>
-									 </div>
-							 </div>
-					 </div> <!-- end back panel -->
-			 </div> <!-- end card -->
-	 </div> <!-- end card-container -->
-</div> <!-- end col-sm-3 -->
-				</div> <!-- end col-sm-10 -->
-		</div> <!-- end row -->
-		<div class="space-200"></div>
-	</main>
+										 </div>
+								 </div>
+								 <div class="footer">
+									 <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
+											 <i class="fa fa-reply"></i> Back
+									 </button>
+										 <div class="social-links text-center">
+												 <a href="https://github.com/DaniVSainz/friends-family" class="facebook"><i class="fa fa-github fa-2x"></i></a>
+												 <a href="https://wynmemory.herokuapp.com/" class="google"><i class="fa fa-desktop fa-2x"></i></a>
+										 </div>
+								 </div>
+						 </div> <!-- end back panel -->
+				 </div> <!-- end card -->
+		 </div> <!-- end card-container -->
+	</div> <!-- end col-sm-3 -->
+					</div> <!-- end col-sm-10 -->
+			</div> <!-- end row -->
+			<!-- <div class="space-200"></div> -->
+		</main>
 
-	<nav class="cd-3d-nav-container">
-		<ul class="cd-3d-nav">
-			<li >
-				<%= link_to "Home" , pages_path %>
-			</li>
+		<nav class="cd-3d-nav-container">
+			<ul class="cd-3d-nav">
+				<li >
+					<%= link_to "Home" , pages_path %>
+				</li>
 
-			<li class="cd-selected">
-				<%= link_to "Projects" , projects_path %>
-			</li>
+				<li class="cd-selected">
+					<%= link_to "Projects" , projects_path %>
+				</li>
 
-			<li>
-				<%= link_to "Who Am I?" , dani_path %>
-			</li>
+				<li>
+					<%= link_to "Who Am I?" , dani_path %>
+				</li>
 
-		</ul> <!-- .cd-3d-nav -->
+			</ul> <!-- .cd-3d-nav -->
 
-		<span class="cd-marker color-1"></span>
-	</nav> <!-- .cd-3d-nav-container -->
-</div>
-	<!-- <script src="js/jquery-2.1.1.js"></script> -->
-	<%= javascript_include_tag "jquery-2.1.1" %>
-	<!-- <script src="js/main.js"></script>  -->
-	<%= javascript_include_tag "main.js" %>
+			<span class="cd-marker color-1"></span>
+		</nav> <!-- .cd-3d-nav-container -->
+	</div>
+		<!-- <script src="js/jquery-2.1.1.js"></script> -->
+		<%= javascript_include_tag "jquery-2.1.1" %>
+		<!-- <script src="js/main.js"></script>  -->
+		<%= javascript_include_tag "main.js" %>
+	</div>
 </body>
 
 <script type='text/javascript'>
