@@ -16,4 +16,12 @@ describe 'navigate' do
       end
     end
 
+    describe 'Click profile button' do
+      it 'takes your to profile page' do
+        visit root_path
+        click_link('Profile')
+         expect(page).to have_css(".dani-para")
+      end
+    end
+
 end
